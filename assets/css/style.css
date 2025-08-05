@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+ /* <!-- (1)Header Area --> */
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a{
+    font-family: 'Oswald',sans-serif;
+    color: #96756b;
+    text-decoration: none; 
+    /* ↑アンダーラインなくした */
+}
+
+.nav ul {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav ul a{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #312a26;
+    text-decoration: none;
+
+}
+
+.banner{
+    width: 100%;
+    height: 670px;
+    background: url('../images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner-text{
+
+    position: absolute;
+    top: 30%;
+    left: 7.5%;
+}
+
+.banner-text h2{
+    color: #c7a17a;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.banner-text p{
+    color: #fff;
+}
+
+.banner-text h2 span{
+    color: #96756b;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
+    background: #c7a17a;
+    color: white;
+    padding: 1em;
+    font-size: 'Raleway',sans-serif;
+    font-weight: 700;
+}
+
+ /* <!-- (3)Advertisement Area --> */
+ .ads{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+ }
+
+ .ads-item{
+    width: 48.5%;
+    height: 350px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ }
+
+ .ads-item1{
+    background-image: url('../images/ads-img1.jpg');
+    margin-right: 3%;
+ }
+
+ .ads-item2{
+     background-image: url('../images/ads-img2.jpg');
+ }
+
+ .ads-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+ }
+
+ .ads-text h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+ }
+
+ .ads-text a{
+    margin-top: 1em;
+    display: block;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+ }
+
+ /* (4)Merchandise Area */
+ .merch{
+    width: 85%;
+    margin: 4em auto;
+    /* border: 2px solid black; */
+ }
+
+ .section-header{
+    text-align: center;
+ }
+
+ .section-header span{
+    font-family: 'Rale way',sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #c7a17a;
+ }
+
+ .section-header h2{
+    text-transform: uppercase;
+    color: #312a26;
+ }
+
+ .section-header hr{
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+ }
+
+ .merch-gallery{
+    margin-top: 2em;
+    overflow: auto;
+    /* border: 2px solid blue; */
+ }
+
+ .merch-items{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    /* border: 2px solid red; */
+ }
+
+ .merch-item4,
+ .merch-item8{
+    margin-right: 0;
+ }
+
+ .merch-items img{
+    width: 100%;
+    height: 370px;
+ }
+
+ /* (5)Discount Area */
+ .discount{
+    width: 85%;
+    margin: 4em auto;
+    background-image:url('../images/discount-img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+ }
+
+ .discount-text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 10%;
+    border: 2px solid yellow;
+ }
+
+ .discount-text span{
+    font-family: 'Raleway','sand-self';
+    color: #fff;
+    font-style: italic;
+    text-shadow: 3px 3px 6px #312a26;
+ }
+
+ .discount-text h2{
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow:  3px 3px 6px #312a26;
+ }
+
+ .discount-text a{
+    text
+ }
